@@ -6,7 +6,7 @@ services:
     ports:
       - 8092:3000
   db:
-    image: postgis
+    image: postgis/postgis
     environment:
         POSTGRES_PASSWORD: '123456'
         POSTGRES_USER: 'postgres'
